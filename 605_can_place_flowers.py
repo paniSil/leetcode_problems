@@ -1,3 +1,6 @@
+# 605. Can Place Flowers
+
+
 class Solution:
     def canPlaceFlowers(self, flowerbed: List[int], n: int) -> bool:
         flowers = len(flowerbed)
@@ -19,5 +22,5 @@ class Solution:
         else:
             if flowerbed[0] == 0:
                 res += 1
-            
+
         return res >= n
