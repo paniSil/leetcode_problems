@@ -1,8 +1,8 @@
 # 605. Can Place Flowers
-
+# Link: https://leetcode.com/problems/can-place-flowers/
 
 class Solution:
-    def canPlaceFlowers(self, flowerbed: List[int], n: int) -> bool:
+    def canPlaceFlowers(self, flowerbed: list[int], n: int) -> bool:
         flowers = len(flowerbed)
         res = 0
 

@@ -1,8 +1,8 @@
 # 283. Move Zeroes
-
+# Link: https://leetcode.com/problems/move-zeroes/
 
 class Solution:
-    def moveZeroes(self, nums: List[int]) -> List:
+    def moveZeroes(self, nums: list[int]) -> list:
         """
         Do not return anything, modify nums in-place instead.
         """
@@ -14,7 +14,7 @@ class Solution:
 
 
 class Solution2:
-    def moveZeroes(self, nums: List[int]) -> List:
+    def moveZeroes(self, nums: list[int]) -> list:
         """
         Do not return anything, modify nums in-place instead.
         """
